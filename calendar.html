@@ -1,9 +1,10 @@
-<<div class="wrapper">
+<div class="wrapper">
   <div id="calendari"></div>
   <footer><a href="http://boudra.me/">boudra.me</a></footer>
 </div>
 
-body {
+<style>
+	body {
     font-family: 'Arial', sans-serif;
     background-color: #3b323f;
   height: 100vh;
@@ -164,7 +165,10 @@ footer a:link {
   text-decoration: none;
 }
 
-var mesos = [
+<style>
+
+<script>
+	var mesos = [
     'January',
     'February',
     'March',
@@ -335,3 +339,4 @@ function calendari(widget, data)
 
 calendari(document.getElementById('calendari'), new Date());
 
+<script>
